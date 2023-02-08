@@ -19,6 +19,6 @@ def getNestedValue(obj: dict, key: str):
         return getNestedValue(obj[nestedKey], key)
 
 if __name__ == '__main__':
-    obj = {'a': {'b': {'c': 'd'}}}
-    value = getNestedValue(obj, 'c')
+    obj = {'x': {'y': {'z': 'a'}}}
+    value = getNestedValue(obj, 'x')
     print(value)
