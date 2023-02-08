@@ -21,3 +21,5 @@ object = {“x”:{“y”:{“z”:”a”}}}
 key = x/y/z
 
 value = a
+
+Note: use python3
